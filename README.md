@@ -2,21 +2,33 @@
 > 首次书写✍️ 2017/02/28
 
 
+<br/>
+<br/>
 
 CI框架实战项目之简易留言本2：入门CI框架的基本操作，熟悉类库的使用、辅助函数的使用、数据库操作，以及配置文件的管理
 
+<br/>
+
+## 在线视频
+http://u8code.org
+
+
+<br/>
 
 ### 1 前台模板： 留言本
-> 可以参考下，未使用CI框架实现的 建议留言本项目的功能：下载地址： https://github.com/mrlindaxue/guestbook-2
+> 可以参考下，未使用CI框架实现的 建议留言本项目的功能：
+
+> 下载地址： https://github.com/mrlindaxue/guestbook-2
 
 > 目前 留言本前台模板 已经整理放在 dev_log/guestbook_static
 
+<br/>
 
 + 包括了一下几个界面
-	+ 留言首页（列表）
-	+ 发布留言
-	+ 编辑留言
-	+ 删除留言（无视图页面）
+	+ 留言首页（列表） index.html
+	+ 发布留言 add.html
+	+ 编辑留言 update.html
+	+ 删除留言（无视图页面） 
 
 <br/>
 <br/>
@@ -29,16 +41,16 @@ CI框架实战项目之简易留言本2：入门CI框架的基本操作，熟悉
 
 
 + 管理员的管理
-	+ 列表
-	+ 添加
-	+ 编辑
-	+ 删除
+	+ 列表 admin/index.html
+	+ 添加 admin/add.html
+	+ 编辑 admin/update.html
+	+ 删除 
 
 
 + 留言的管理
-	+ 列表
-	+ 详情
-	+ 删除
+	+ 列表 guestbook/index.html
+	+ 详情 guestbook/show.html
+	+ 删除 
 
 
 + 登录与退出
