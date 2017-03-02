@@ -9,13 +9,23 @@ CI框架实战项目之简易留言本2：入门CI框架的基本操作，熟悉
 
 <br/>
 
-## 在线视频
+## 1 在线视频
 http://u8code.org
 
 
 <br/>
+## 2 其中 dev_log 目录是 开发目录
++ 留言本测试数据.sql  数据库文件
++ guest静态页面2.zip 留言本静态页面
 
-### 1 前台模板： 留言本
+
+
+
+
+<br/>
+
+
+## 3 前台模板： 留言本
 > 可以参考下，未使用CI框架实现的 建议留言本项目的功能：
 
 > 下载地址： https://github.com/mrlindaxue/guestbook-2
@@ -33,7 +43,7 @@ http://u8code.org
 <br/>
 <br/>
 
-### 2 后台模板
+## 4 后台模板
 > 参考地址： https://github.com/mrlindaxue/hia_admin 	
 
 > 目前 后台模板 已经整理放在 dev_log/admin_static
@@ -59,11 +69,15 @@ http://u8code.org
 <br/>
 <br/>
 
-### 3 CI 框架
+## 5 CI 框架
 > 参考地址： http://codeigniter.org.cn/user_guide/index.html
 
 > CI项目代码 放在 web目录
 
+
+====
+
+以下是CI的常用内容的链接
 
 + 常规主题
 	+ URL处理 ： http://codeigniter.org.cn/user_guide/general/urls.html
